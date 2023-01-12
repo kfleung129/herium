@@ -13,7 +13,7 @@ export default function Home() {
             <WrapItem>
                 <Box>
                     <Heading size='3xl'>Herium</Heading>
-                    <Text mt="25px" mr="150px" w={{ base: '350px', md: '350px', lg: '750px' }} fontSize={{ base: '15px', md: '15px', lg: '18px' }}>The next-generation forum. It brings you the most comfortable internet surfing experienceThe next-generation forum</Text>
+                    <Text mt="25px" mr="150px" w={{ base: '350px', md: '350px', lg: '750px' }} fontSize={{ base: '15px', md: '15px', lg: '18px' }}>The next-generation forum. It brings you the most comfortable internet surfing experience.</Text>
                 </Box>
             </WrapItem>
             <WrapItem>
