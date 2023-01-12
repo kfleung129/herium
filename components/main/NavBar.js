@@ -11,7 +11,7 @@ export default function NavBar(props) {
         <Center ml={{ base: '12px', md: '12px', lg: '25px' }}>
             <Box as={Link} href="/" _hover={{ textDecoration: 'none' }}>
                 <HStack>
-                    <Image w="40px" h="40px" src="/herium.png" />
+                    <Image w="40px" h="40px" alt="logo" src="/herium.png" />
                     <Center><Text fontSize={20}>Herium</Text></Center>
                 </HStack>
             </Box>

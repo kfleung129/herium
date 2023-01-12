@@ -18,6 +18,7 @@ export default function Menus() {
             {
                 menusList?.map(item => (
                     <MenusItem
+                        key={item.id}
                         name={item.name}
                         path={item.path}
                     />

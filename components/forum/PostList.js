@@ -12,10 +12,12 @@ export default function PostList({ postList }) {
         maxHeight: "800px",
         overflowX: "hidden",
         '&::-webkit-scrollbar': { width: 0 }
-      }} >
+      }} 
+    >
       {
         postList?.map(item => (
           <Post
+            key={item.id}
             id={item.id}
             username={item.username}
             title={item.title}

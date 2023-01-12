@@ -21,7 +21,7 @@ export default function Post({ id, username, title, description, date, category 
       </HStack>
       <Box mt="5px" maxH="30px" sx={{ overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis' }}>{description}</Box>
       <Box align="right">
-          <Code children={date.split(' ')[0]} />
+          <Code>{date.split(' ')[0]}</Code>
       </Box>
     </Box>
   )
