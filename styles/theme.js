@@ -7,11 +7,13 @@ const config = {
     p: "4px 10px 4px 10px",
     minHeight: '55px',
     maxHeight: '55px',
+    bg: 'blackAlpha.300',
+    position: 'sticky'
   },
   main: {
-    mt: { base: '40px', md: '40px', lg: '125px' },
-    ml: { base: '40px', md: '40px', lg: '250px' },
-    mr: { base: '40px', md: '40px', lg: '250px' },
+    mt: { base: '30px', md: '40px', lg: '50px' },
+    ml: { base: '20px', md: '20px', lg: '50px' },
+    mr: { base: '20px', md: '20px', lg: '50px' },
   }
 }
 

@@ -1,7 +1,8 @@
 import Head from 'next/head'
+import NavBar from '@components/main/NavBar';
 import { Box, Heading, Text, Wrap, WrapItem, Image } from '@chakra-ui/react';
 
-export default function Home() {
+export default function Home({ menusList }) {
   return (
     <>
         <Head>
@@ -9,7 +10,7 @@ export default function Home() {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/herium.png" />
         </Head>
-        <Wrap align='center'>
+        <Wrap align='center' mt={{ base: '30px', md: '30px', lg: '150px' }} ml={{ base: '0px', md: '0px', lg: '250px'}}>
             <WrapItem>
                 <Box>
                     <Heading size='3xl'>Herium</Heading>
